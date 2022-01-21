@@ -2,7 +2,7 @@
 
 During my studying, I noticed many scholars have their own homepages to list their past projects and work. People can easily  know about their work and have better discussion. I just got the drive to design and realize my personal homepage suddenly, even without any web programming experience before. Even till finished, I still don't know how it works. However, the homepage of mine just was realized. So, homepage making is simple and fun. 
 
-For me, it is just like markdown or Latex. What we need is to design the layout and fill the  contents. And I  finished it with less than 2 days. So if you the thought of personal homepage making, just do it.
+For me, it is just like markdown or Latex. What we need is to design the layout and fill the  contents. And I  finished it with less than 2 days. So if you have the thought of personal homepage making, just do it.
 
 <img src="README.assets/image-20220121202122947.png" alt="image-20220121202122947" style="zoom:67%;" />
 
