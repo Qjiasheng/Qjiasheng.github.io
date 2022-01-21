@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Qu homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Jiasheng Qu">
+
+    <link href="w3.css" rel="stylesheet">
+<!--    use icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .w3-sidebar a {font-family: "Roboto", sans-serif}
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /*define link color but sidebar remained*/
+        a:link {
+            color: blue;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:visited {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        #mySidebar a:link {
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        #mySidebar a:visited{
+            color:white;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+    </style>
+
+    <link rel="icon" type="image/png" href="resources/images/icons.png">
+
+</head>
+
+
+<body>
+<!--Navigator sidebar without left margin-->
+<nav class="w3-bar-block w3-sidebar w3-black w3-collapse w3-animate-left w3-xlarge" style="width:16%" id="mySidebar">
+    <div class="w3-container w3-display-container w3-padding-16 w3-center">
+        <h2><b>JIASHENG</b></h2>
+        <h3><b>i<sup>2</sup>MEMS</b></h3>
+    </div>
+    <a class="w3-bar-item w3-button" href="#Home"><i class="fa fa-fw fa-home"></i> Home</a>
+    <a class="w3-bar-item w3-button" href="#News"><i class="fa fa fa-bell-o"></i> News</a>
+    <a class="w3-bar-item w3-button" href="#Research"><i class="fa fa-book"></i> Research</a>
+    <a class="w3-bar-item w3-button" href="#Awards"><i class="fa fa-thumbs-o-up"></i> Awards</a>
+    <a class="w3-bar-item w3-button" href="#Services"><i class="fa fa-smile-o"></i> Services</a>
+    <a class="w3-bar-item w3-button" href="#Talks"><i class="fa fa-linux"></i> Talks</a>
+</nav>
+
+<!--Home left aligned and right margin-->
+<div class="w3-row  w3-left-align w3-padding-32 w3-margin-right" style="margin-left:18%" id="Home">
+<!--    content with image and brief introduction-->
+    <div class="w3-third">
+    <img style="width: 90%;min-height: 150px"
+         alt="profile photo" src="resources/images/qu.jpg" class="w3-round-large w3-border">
+    </div>
+    <div class="w3-twothird w3-container">
+        <h1><b>Jiasheng Qu</b></h1>
+        <p class="w3-left-align">
+            I am a master student studying in the group of i<sup>2</sup>MEMS at the School of Integrated Circuit and Electronics,
+            Beijing Institute of Technology.
+            And my advisor is Prof. <a href="https://scholar.google.com/citations?hl=zh-CN&user=omXfGEoAAAAJ">Huikai Xie</a> (IEEE and SPIE Fellow).
+            Now, I mainly focus on the work about 3D vision based on MEMS mirror system. Before that, I received my Bachelor degree from the School of Information Engineering,
+            Minzu University of China.
+        </p>
+        <p class="w3-left-align">
+<!--            <a href="https://sch">Google Scholar</a> &nbsp/&nbsp-->
+            Google Scholar &nbsp/&nbsp
+            <a href="https://github.com/Qjiasheng">Github </a> <br>
+            <a href="mailto:js.qu@bit.edu.cn">Email</a> : js.qu@bit.edu.cn
+        </p>
+    </div>
+</div>
+
+<!--News -->
+<div class="w3-row w3-padding-16 w3-margin-right w3-light-gray" style="margin-left:15%" id="News">
+    <div class="w3-row w3-left-align w3-margin-right" style="margin-left: 5%">
+        <h2><b>News</b></h2>
+        <ul>
+            <p><li> 08/2021, Poster titled "Integrated Capacitive Sensing of Electrostatic Comb-drive Micromirrors"
+           was exhibited at Applied Optics and Photonics of China (AOPC), 2021. </li></p>
+            <p><li> 08/2021, we finished the Face ID prototype based on MEMS mirror in Wuxi.</li></p>
+        </ul>
+    </div>
+</div>
+
+<!--Research content-->
+<div class="w3-row w3-padding-16 w3-margin-right" style="margin-left:15%" id="Research">
+<!--    research interests-->
+    <div class="w3-row w3-left-align w3-margin-right" style="margin-left: 5%">
+        <h3><b>Research interests</b></h3>
+        <p>My primary research interests include 3D vision based on MEMS mirror system and MEMS mirror
+            detection and applications.
+            <ul><li><b>3D vision</b></li>
+                 <ul><li>Structured light for 3D reconstruction</li>
+                     <li>Lidar for SLAM and vSLAM</li></ul></ul>
+            <ul><li><b>MEMS mirror</b></li>
+                <ul><li>Angle and phase detection of MEMS mirror</li></ul></ul>
+        </p>
+    </div>
+
+<!--publications title-->
+    <div class="w3-row w3-left-align w3-margin-right" style="margin-left: 5%">
+        <h3><b>Publications</b></h3>
+    </div>
+
+<!--publications-->
+    <div class="w3-row w3-left-align w3-margin-right" style="margin-left: 5%">
+        <div class="w3-third">
+            <img src="resources/pub/watermark.png" alt="profile photo" width="260px" height="140px" class="w3-round-large w3-border">
+        </div>
+        <div class="w3-twothird w3-container">
+            <p class="w3-left-align">
+<!--                title-->
+                <strong>A Novel Improved Reversible Visible Image Watermarking Algorithm Based on Grad-CAM and JND</strong>
+                <br>
+<!--                journal or conference-->
+                <strong><i>Security and Communication Networks, 2021</i></strong>
+                <br>
+<!--                authors-->
+                <b>Jiasheng Qu, </b> Wei Song, Xiangchun Liu, Lizhi Zhao, and Xiaobing Zhao
+                <br>
+<!--                links-->
+                <a href="https://www.hindawi.com/journals/scn/2021/6652897/">Link</a> &nbsp/&nbsp
+<!--                <a href="https://github.com/Qjiasheng">Code </a> &nbsp/&nbsp-->
+                Code &nbsp/&nbsp
+<!--                <a href="https://github.com/Qjiasheng">Video </a>-->
+                Video
+            </p>
+        </div>
+    </div>
+
+    <!--publications templates-->
+<!--    <div class="w3-row w3-left-align w3-margin-right" style="margin-left: 5%">-->
+<!--        <div class="w3-third">-->
+<!--            <img src="resources/pub/watermark.png" alt="profile photo" width="260px" height="140px" class="w3-round-large w3-border">-->
+<!--        </div>-->
+<!--        <div class="w3-twothird w3-container">-->
+<!--            <p class="w3-left-align">-->
+<!--                &lt;!&ndash;                title&ndash;&gt;-->
+<!--                <strong>A Novel Improved Reversible Visible Image Watermarking Algorithm Based on Grad-CAM and JND</strong>-->
+<!--                <br>-->
+<!--                &lt;!&ndash;                journal or conference&ndash;&gt;-->
+<!--                <strong>Security and Communication Networks, 2021</strong>-->
+<!--                <br>-->
+<!--                &lt;!&ndash;                authors&ndash;&gt;-->
+<!--                <b>Jiasheng Qu, </b> Wei Song, Xiangchun Liu, Lizhi Zhao, and Xiaobing Zhao-->
+<!--                <br>-->
+<!--                &lt;!&ndash;                links&ndash;&gt;-->
+<!--                <a href="https://www.hindawi.com/journals/scn/2021/6652897/">Link</a> &nbsp/&nbsp-->
+<!--                <a href="https://github.com/Qjiasheng">Code </a> &nbsp/&nbsp-->
+<!--                <a href="https://github.com/Qjiasheng">Video </a>-->
+<!--            </p>-->
+<!--        </div>-->
+<!--    </div>-->
+
+</div>
+
+<!--Awards-->
+<div class="w3-row w3-padding-16 w3-margin-right w3-light-gray" style="margin-left:15%" id="Awards">
+    <div class="w3-row w3-left-align w3-margin-right" style="margin-left: 5%">
+        <h2><b>Awards</b></h2>
+        <ul>
+            <p><li> 12/2021, won excellent bachelor graduation project of Beijing.</li></p>
+            <p><li> 06/2021, honored as the "Top ten" students of Minzu University of China.</li></p>
+<!--            <p><li> 08/2021, we finished the Face ID prototype based on MEMS mirror in Wuxi</li></p>-->
+        </ul>
+    </div>
+</div>
+
+<!--Services-->
+<div class="w3-row w3-padding-16 w3-margin-right" style="margin-left:15%" id="Services">
+    <div class="w3-row w3-left-align w3-margin-right" style="margin-left: 5%">
+        <h2><b>Services</b></h2>
+        <ul>
+            Still None.
+<!--            <p><li> 12/2021, won excellent bachelor graduation project of Beijing</li></p>-->
+<!--            <p><li> 06/2021, honored as the "Top ten" students of Minzu University of China</li></p>-->
+<!--            <p><li> 08/2021, we finished the Face ID prototype based on MEMS mirror in Wuxi</li></p>-->
+        </ul>
+    </div>
+</div>
+
+<!--Talks-->
+<div class="w3-half w3-padding-16 w3-margin-right w3-light-gray" style="margin-left:15%" id="Talks">
+    <div class="w3-left-align w3-margin-right" style="margin-left: 9%">
+        <h2><b>Talks</b></h2>
+        <ul>
+            <p><li>I just got the drive to realize my personal homepage suddenly, even without any Web programming
+            experience before. But I believe the work can be meaningful in the future. I do hope I can fill all the empty lists with
+            my hard work, especially the publications (haha...). And if you have the same goal similar to me, let's go
+            together.
+        </li></p>
+            <!--            <p><li> 06/2021, honored as the "Top ten" students of Minzu University of China</li></p>-->
+            <!--            <p><li> 08/2021, we finished the Face ID prototype based on MEMS mirror in Wuxi</li></p>-->
+        </ul>
+    </div>
+</div>
+
+<!--page counter-->
+<div class="w3.half w3-padding-16 w3-right-align w3-margin-right w3-center w3-light-gray"  id="Viewers">
+    <a href='https://clustrmaps.com/site/1bmd8'  title='Visit tracker'>
+        <img src='//clustrmaps.com/map_v2.png?cl=080808&w=400&t=tt&d=PhKZ9FbpfKXyKdIgEQ2V6ouYnoK3_SAaq36Itp0obYU&co=ffffff&ct=808080'/>
+    </a>
+</div>
+
+
+<!--declare-->
+<div class="w3-row w3-padding-16 w3-margin-right w3-black" style="margin-left:15%" id="Declare">
+    <div class="w3-row w3-center w3-margin-right" style="margin-left: 5%">
+        <p>Welcome to Jiasheng Qu's homepage.
+            If you like this one, go to my
+            <a href="https://github.com/Qjiasheng">Github</a> to get the source code
+            for your further re-designing. This homepage designing refers to the work of
+            <a href="https://www.wangyunhe.site/"> Wang's</a> and <a href="https://li-chongyi.github.io/"> Li's</a>.
+            Thanks a lot!
+            Powered by <a href="https://www.w3schools.com/">w3.css</a>
+        </p>
+    </div>
+</div>
+
+
+</div>
+
+
+
+</body>
+</html>
