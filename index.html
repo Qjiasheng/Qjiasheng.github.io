@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Qu homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Jiasheng Qu">
+
+    <link href="w3.css" rel="stylesheet">
+<!--    use icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .w3-sidebar a {font-family: "Roboto", sans-serif}
+        /*body, h1, h2, h3, h4, h5, h6 {*/
+        /*    font-family: "Times New Roman", Times, serif;*/
+        /*}*/
+        /*define link color but sidebar remained*/
+        a:link {
+            color: blue;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:visited {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        #mySidebar a:link {
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        #mySidebar a:visited{
+            color:white;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+
+    </style>
+
+    <link rel="icon" type="image/png" href="resources/images/icons.png">
+
+</head>
+
+
+<body>
+<!--Navigator sidebar without left margin-->
+<nav class="w3-bar-block w3-sidebar w3-black w3-collapse w3-animate-left w3-xlarge" style="width:16%" id="mySidebar">
+    <div class="w3-container w3-display-container w3-padding-16 w3-center">
+        <h2><b>CRML</b></h2>
+        <!-- <h3><b>i<sup>2</sup>MEMS</b></h3> -->
+    </div>
+    <a class="w3-bar-item w3-button" href="#Home"><i class="fa fa-fw fa-home"></i>Home</a>
+    <a class="w3-bar-item w3-button" href="#News"><i class="fa fa fa-bell-o"></i> News</a>
+    <a class="w3-bar-item w3-button" href="#Research"><i class="fa fa-book"></i> Research</a>
+    <a class="w3-bar-item w3-button" href="#Awards"><i class="fa fa-thumbs-o-up"></i> Awards</a>
+    <a class="w3-bar-item w3-button" href="#Services"><i class="fa fa-smile-o"></i> Services</a>
+    <a class="w3-bar-item w3-button" href="#Talks"><i class="fa fa-linux"></i> Talks</a>
+</nav>
+
+<!--Home left aligned and right margin-->
+<div class="w3-row w3-center w3-padding-32 w3-margin-right" style="margin-left:18%" id="Home">
+<!--    content with image and brief introduction-->
+    <div class="w3-quarter">
+    <img style="width: 80%;min-height: 150px"
+         alt="profile photo" src="resources/images/me.jpg" class="w3-round-large w3-border">
+    </div>
+    <div class="w3-threequarter w3-container w3-left-align">
+        <h1><b>Jiasheng Qu 屈家生</b></h1>
+        <p class="w3-left-align">
+            I am a first-year PhD student at the Computational Robotics and Manufacturing Lab (CRML),
+            the Chinese University of Hong Kong (CUHK),
+            under the guidance of Prof. <a href="https://guoxinfang.github.io/">Guoxin Fang</a>.
+            I received my M.S. degree from Beijing Institute of Technology, 
+            worked with Prof. <a href="https://scholar.google.com/citations?hl=zh-CN&user=omXfGEoAAAAJ">Huikai Xie</a>,
+            and B.Eng. degree from Minzu University of China.
+        </p>
+        <p class="w3-left-align">
+<!--            <a href="https://sch">Google Scholar</a> &nbsp/&nbsp-->
+            [Google Scholar]
+            <a href="https://github.com/Qjiasheng">[Github] </a> <br>
+            <a href="mailto:js.qu@bit.edu.cn">Email</a> : js.qu@bit.edu.cn
+        </p>
+    </div>
+</div>
+
+<!--News -->
+<div class="w3-row w3-padding-16 w3-margin-right w3-light-gray" style="margin-left:15%" id="News">
+    <div class="w3-row w3-left-align w3-margin-right" style="margin-left: 5%">
+        <h2><b>News</b></h2>
+        <ul>
+            <p><li> 12/2022, my paper has been accepted by Optics Express.</li></p>
+            <p><li> 08/2021, Poster titled "Integrated Capacitive Sensing of Electrostatic Comb-drive Micromirrors"
+           was exhibited at Applied Optics and Photonics of China (AOPC), 2021. </li></p>
+            <!-- <p><li> 08/2021, we finished the Face ID prototype based on MEMS mirror in Wuxi, Jiangsu province.</li></p> -->
+        </ul>
+    </div>
+</div>
+
+<!--Research content-->
+<div class="w3-row w3-padding-16 w3-margin-right" style="margin-left:15%" id="Research">
+<!--    research interests-->
+    <div class="w3-row w3-left-align w3-margin-right" style="margin-left: 5%">
+        <h3><b>Research interests</b></h3>
+        <p> Learning based methods for multi-axis additive manufacturing and robotics systems.
+<!--            <ul><li><b>Computational imaging</b></li>-->
+<!--&lt;!&ndash;                 <ul><li>Structured light for 3D reconstruction</li>&ndash;&gt;-->
+<!--&lt;!&ndash;                     <li>Lidar for SLAM and vSLAM</li>&ndash;&gt;-->
+<!--                 </ul></ul>-->
+<!--            <ul><li><b>Robotics</b></li>-->
+<!--&lt;!&ndash;                <ul><li>MEMS mirror dynamics detection</li></ul>&ndash;&gt;-->
+<!--            </ul>-->
+        </p>
+    </div>
+
+<!--publications title-->
+    <div class="w3-row w3-left-align w3-margin-right" style="margin-left: 5%">
+        <h3><b>Publications</b></h3>
+    </div>
+
+<!--publications-->
+        <div class="w3-row w3-left-align w3-margin-right" style="margin-left: 6%">
+        <div class="w3-third w3-container">
+            <img src="resources/pub/capactive.png" alt="profile photo" width="240px" height="135px"
+                 class="w3-round-large w3-border" style="margin-top:15px">
+        </div>
+        <div class="w3-twothird w3-container">
+            <p class="w3-left-align">
+<!--                title-->
+                <strong class="w3-text-indigo">
+                    An integrated capacitive sensing method for electrostatic comb-drive micromirrors
+                </strong>
+                <br>
+<!--                journal or conference-->
+                <i class="w3-text-red">Sensors and Actuators: A. Physical, 2023</i>
+                <br>
+<!--                authors-->
+                Ruihao Zhang, <b>Jiasheng Qu, </b>Yingchao Cao, Xinchao Zhang, Yilong Jia, Xiaoyi Wang, Wenbiao Zhou, Huikai Xie
+                <br>
+<!--                links-->
+                <a href="https://www.sciencedirect.com/science/article/pii/S0924424723002650">[Link]</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="w3-row w3-left-align w3-margin-right" style="margin-left: 6%">
+        <div class="w3-third w3-container">
+            <img src="resources/pub/mems.png" alt="profile photo" width="240px" height="140px"
+                 class="w3-round-large w3-border" style="margin-top:15px">
+        </div>
+        <div class="w3-twothird w3-container">
+            <p class="w3-left-align">
+<!--                title-->
+                <strong class="w3-text-indigo">
+                    High-flexibility and high-accuracy phase delay calibration method for MEMS-based fringe projection systems
+                </strong>
+                <br>
+<!--                journal or conference-->
+                <i class="w3-text-red">Optics Express, 2023</i>
+                <br>
+<!--                authors-->
+                <b>Jiasheng Qu, </b> Hongxin Gao, Ruihao Zhang, Yingchao Cao, Wenbiao Zhou, and Huikai Xie
+                <br>
+<!--                links-->
+                <a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-31-2-1049">[Link]</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--Awards-->
+<div class="w3-row w3-padding-16 w3-margin-right w3-light-gray" style="margin-left:15%" id="Awards">
+    <div class="w3-row w3-left-align w3-margin-right" style="margin-left: 5%">
+        <h2><b>Awards</b></h2>
+        <ul>
+            <p><li> 11/2023, National Scholarship for graduate students.</li></p>
+            <p><li> 12/2021, Beijing Outstanding Undergraduate Thesis (or Design).</li></p>
+            <p><li> 06/2021, "Top Ten Students of Minzu University of China" Honor Title .</li></p>
+        </ul>
+    </div>
+</div>
+
+<!--Services-->
+<div class="w3-row w3-padding-16 w3-margin-right" style="margin-left:15%" id="Services">
+    <div class="w3-row w3-left-align w3-margin-right" style="margin-left: 5%">
+        <h2><b>Services</b></h2>
+        <ul>
+            None.
+<!--            <p><li> 12/2021, won excellent bachelor graduation project of Beijing</li></p>-->
+<!--            <p><li> 06/2021, honored as the "Top ten" students of Minzu University of China</li></p>-->
+<!--            <p><li> 08/2021, we finished the Face ID prototype based on MEMS mirror in Wuxi</li></p>-->
+        </ul>
+    </div>
+</div>
+
+<!--Talks-->
+<div class="w3-half w3-padding-16 w3-margin-right w3-light-gray" style="margin-left:15%" id="Talks">
+    <div class="w3-left-align w3-margin-right" style="margin-left: 9%">
+        <h2><b>Talks</b></h2>
+        <ul>
+            <p><li>
+            None
+        </li></p>
+            <!--            <p><li> 06/2021, honored as the "Top ten" students of Minzu University of China</li></p>-->
+            <!--            <p><li> 08/2021, we finished the Face ID prototype based on MEMS mirror in Wuxi</li></p>-->
+        </ul>
+    </div>
+</div>
+
+<!--page counter-->
+<div class="w3.half w3-padding-16 w3-right-align w3-margin-right w3-center w3-light-gray"  id="Viewers">
+	<a href='https://clustrmaps.com/site/1bmd8'  title='Visit tracker'>
+	<img src='//clustrmaps.com/map_v2.png?cl=080808&w=400&t=tt&d=PhKZ9FbpfKXyKdIgEQ2V6ouYnoK3_SAaq36Itp0obYU&co=ffffff&ct=808080'/>
+	</a>
+</div>
+
+
+<!--declare-->
+<div class="w3-row w3-padding-16 w3-margin-right w3-black" style="margin-left:15%" id="Declare">
+    <div class="w3-row w3-center w3-margin-right" style="margin-left: 5%">
+        <p>
+<!--            <b>Welcome to Jiasheng Qu's homepage. Since Jan/2022.-->
+<!--                Powered by <a href="https://www.w3schools.com/">w3.css</a></b>-->
+            <b>Welcome to Jiasheng Qu's homepage. Since Jan. 2022.</b>
+            <br>
+<!--            This homepage designing refers to the work of-->
+<!--            <a href="https://www.wangyunhe.site/"> Wang's</a> and <a href="https://li-chongyi.github.io/"> Li's</a>.-->
+<!--            Thanks a lot!-->
+
+        </p>
+    </div>
+</div>
+
+
+</div>
+
+
+
+</body>
+</html>
